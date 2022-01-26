@@ -1,0 +1,49 @@
+History of React
+https://www.w3schools.com/REACT/react_intro.asp
+
+Basics of React reactjs and JSX
+REFER : https://www.tutorialspoint.com/reactjs/reactjs_jsx.htm
+
+What is React JS and Why React JS?
+
+Refer: https://www.simplilearn.com/tutorials/reactjs-tutorial/what-is-reactjs
+
+Virtual DOM Vs Real DOM
+Refer: https://medium.com/devinder/react-virtual-dom-vs-real-dom-23749ff7adc9
+Refer: https://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/
+- Think of manipulating the virtual DOM as editing a blueprint, as opposed to moving rooms in an actual house which is Real DOM.
+
+In summary, here’s what happens when you try to update the DOM in React:
+
+The entire virtual DOM gets updated.
+The virtual DOM gets compared to what it looked like before you updated it. React figures out which objects have changed.
+The changed objects, and the changed objects only, get updated on the real DOM.
+Changes on the real DOM cause the screen to change.
+
+
+A ReactElement is a light, stateless, immutable, virtual representation of a DOM Element.
+ReactComponents are stateful. -  whenever the state changes, the component is rerendered:
+
+function tick() {
+  const element = (
+    <div>
+      <h1>Hello, world!</h1>
+      <h2>It is {new Date().toLocaleTimeString()}.</h2>
+    </div>
+  );
+  ReactDOM.render(
+    element,
+    document.getElementById('root')
+  );
+}
+
+setInterval(tick, 1000);
+
+React coding Standards and Practices
+https://medium.com/@navitasinghal77/react-coding-standards-and-practices-3b133bcaea8
+https://reactjs.org/docs/faq-structure.html
+https://www.educative.io/blog/best-practices-react-developer
+
+React Js components
+https://jinalshah999.medium.com/reactjs-step-by-step-tutorial-series-part-2-reactjs-components-7b6a5078f824
+https://reactjs.org/docs/react-component.html

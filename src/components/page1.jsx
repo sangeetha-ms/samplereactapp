@@ -10,7 +10,7 @@ class page1 extends Component {
 
         this.state = {
             name: "karthik D",
-            name3: "karthikeyan D",
+            name3: "karthikeyan Dhasnamoorthy",
             num: 10,
             arr: [],
             flt: 10.2,

@@ -9,8 +9,8 @@ class page1 extends Component {
         super(props);
 
         this.state = {
-            name: "karthik",
-            name3: "karthikeyan eqwe",
+            name: "karthik D",
+            name3: "karthikeyan D",
             num: 10,
             arr: [],
             flt: 10.2,
